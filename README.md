@@ -1,10 +1,7 @@
-# Docker GAMESS for Singularity
+# Singularity / Docker HPC Base image for building complex HPC Applications
 
 ## Purpose
 To provide the docker container for singularity
-
-## Reference
-- https://www.webmo.net/support/gamess_linux.html
 
 ## Build
 - This project provides a simple Dockerfile for the purpose of illustration only. You need to extend/modify the Docker to
@@ -14,10 +11,11 @@ support whatever you want to do.
 ```
 
 ## Run
-- To run the simple example build image; it will pop up X11 to display Firefox docker-based browser.
+- To run the simple build image
 ```
 ./run.sh
 ```
+
 ## Reference
 * [Singularity Tutorial](http://www.hpcadvisorycouncil.com/events/2017/stanford-workshop/pdf/GMKurtzer_Singularity_Keynote_Tuesday_02072017.pdf#43)
 * [Singularity Tutorial](https://github.com/NIH-HPC/Singularity-Tutorial)
